@@ -10,7 +10,7 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 
 <div align="center"> 
   <a href="https://youtube.com/@luckytechhub-i9u"> 
-    <img src="https://github.com/luckytechhub/LuckyTechHub-Bot/blob/main/assets/bot_image.jpg" alt="Knight Bot" height="300"> 
+    <img src="https://github.com/luckytechhub/LuckyTechHub-Bot/blob/main/assets/bot_image.jpg" alt="Lucky Tech Hub Bot" height="300"> 
   </a> 
 </div>
 
