@@ -23,7 +23,7 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 Click the button below to fork the Lucky Tech Hub Bot repository to your GitHub account:
 
 <div align="center">
-  <a href="https://github.com/mruniquehacker/Knightbot-MD/fork">
+  <a href="https://github.com/luckytechhub/LuckyTechHub-Bot/fork">
     <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
   </a>
 </div>
@@ -56,7 +56,7 @@ Deploy the bot and easily connect it to your WhatsApp account by pair code. Clic
 For further customization and setup guidance, click the button below:
 
 <div align="center">
-  <a href="https://youtu.be/-oz_u1iMgf8">
+  <a href="https://youtube.com/@luckytechhub-i9u">
     <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
   </a>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
@@ -75,7 +75,7 @@ For further customization and setup guidance, click the button below:
 ### Join Us
 
 <div align="center">
-  <a href="https://t.me/+3QhFUZHx-nhhZmY1">
+  <a href="https://t.me/luckytechhub">
     <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
   </a>
   <a href="https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L">
@@ -99,7 +99,7 @@ For further customization and setup guidance, click the button below:
 
 ## 📖 About
 
-The Lucky tech hub WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
+The Lucky Tech Hub WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
 
 It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
 
@@ -117,8 +117,8 @@ It is lightweight and can be easily customized to add more commands as per your 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/mruniquehacker/Knightbot-MD.git
-    cd Knightbot-MD
+    git clone https://github.com/luckytechhub/LuckyTechHub-Bot.git
+    cd LuckyTechHub-Bot
     ```
 
 2. **Install the dependencies:**
@@ -142,24 +142,24 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/mruniquehacker/Knightbot-MD/blob/main/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/luckytechhub/LuckyTechHub-Bot/blob/main/LICENSE) file for details.
 
 ---
 
 ## 🙌 Contributions
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mruniquehacker/Knightbot-MD/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/luckytechhub/LuckyTechHub-Bot/issues).
 
 ---
 
 ## 🌟 Show your support
 
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
+If you like this project, please give it a [⭐️ star on GitHub](https://github.com/luckytechhub/LuckyTechHub-Bot)!
 
 
 ## Credits
 
-- [Professor](https://github.com/mruniquehacker)
+- [Lucky218](https://github.com/luckytechhub)
 - [Baileys](https://github.com/adiwajshing/Baileys)
 - [TechGod143](https://github.com/TechGod143) for pair code
 - [Dgxeon](https://github.com/Dgxeon) for pair code
@@ -187,7 +187,7 @@ This project is licensed under the MIT License. However, you must:
 
 ## 📜 Copyright Notice
 
-Copyright (c) 2024 Professor. All rights reserved.
+Copyright (c) 2024 Lucky218. All rights reserved.
 
 This project contains code from various open source projects:
 - Baileys (MIT License)
