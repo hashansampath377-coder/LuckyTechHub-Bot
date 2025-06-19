@@ -108,7 +108,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'Lucky Tech Hub Bot MD',
+            newsletterName: 'Lucky Tech Hub Bot',
             serverMessageId: -1
         }
     }
