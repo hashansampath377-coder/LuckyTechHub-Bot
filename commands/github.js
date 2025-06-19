@@ -1,11 +1,9 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 LuckytechhubBot MD*
+    const repoInfo = `*🤖 Lucky Tech Hub Bot*
 
-*📂 GitHub Repository:*
-https://github.com/mruniquehacker/Knightbot-MD
+*📂 GitHub Repository:*https://github.com/luckytechhub/LuckyTechHub-Bot
 
-*📢 Official Channel:*
-https://youtube.com/@mr_unique_hacker
+*📢 Official Channel:*https://youtube.com/@luckytechhub-i9u
 
 _Star ⭐ the repository if you like the bot!_`;
 
@@ -17,7 +15,7 @@ _Star ⭐ the repository if you like the bot!_`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'LuckytechhubBot MD',
+                    newsletterName: 'Lucky Tech Hub Bot',
                     serverMessageId: -1
                 }
             }
