@@ -5,7 +5,7 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'LuckyTechHub-Bot'}*  
+   *🤖 ${settings.botName || 'LuckyTechHub-Bot'}🦾*  
    Version: *${settings.version || '2.0.2'}*
    by ${settings.botOwner || 'Lucky Tech Hub'}
    YT : ${global.ytch}
@@ -14,7 +14,7 @@ async function helpCommand(sock, chatId, message) {
 *Available Commands:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
+🌐 *General Commands*:🌐
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
@@ -37,7 +37,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝ 
 
 ╔═══════════════════╗
-👮‍♂️ *Admin Commands*:
+💻 *Admin Commands*:💻
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -59,7 +59,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔒 *Owner Commands*:
+🎩 *Owner Commands*:🎩
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
@@ -70,7 +70,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+🖼️ *Image/Sticker Commands*:🖼️
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -81,7 +81,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝  
 
 ╔═══════════════════╗
-🎮 *Game Commands*:
+🕹️ *Game Commands*:🕹️
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -92,7 +92,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🤖 *AI Commands*:
+🤖 *AI Commands*:🤖
 ║ ➤ .gpt <question>
 ║ ➤ .gemini <question>
 ║ ➤ .imagine <prompt>
@@ -100,7 +100,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Fun Commands*:
+🤓 *Fun Commands*:🤓
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -115,7 +115,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔤 *Textmaker*:
+✒️ *Textmaker*:✒️
 ║ ➤ .metallic <text>
 ║ ➤ .ice <text>
 ║ ➤ .snow <text>
@@ -137,7 +137,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-📥 *Downloader*:
+📥 *Downloader*:📥
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ║ ➤ .instagram <link>
@@ -146,7 +146,7 @@ async function helpCommand(sock, chatId, message) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-💻 *Github Commands:*
+☣️ *Github Commands:*☣️
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
