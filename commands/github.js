@@ -1,10 +1,10 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 Lucky Tech Hub Bot🦾*
+    const repoInfo = `*🤖 Lucky Tech Hub Bot*
 
-*📂 GitHub Repository:📂*
+*📂 GitHub Repository:*
 https://github.com/luckytechhub/LuckyTechHub-Bot
 
-*💺 Official Channel:📕*
+*📢 Official Channel:*
 https://youtube.com/@luckytechhub-i9u
 
 _Star ⭐ the repository if you like the bot!_`;
