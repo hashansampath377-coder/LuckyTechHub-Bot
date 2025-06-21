@@ -14,7 +14,7 @@ async function takeCommand(sock, chatId, message, args) {
         }
 
         // Get the packname from args or use default
-        const packname = args.join(' ') || 'Lucky Tech Hub Bot';
+        const packname = args.join(' ') || 'Knight Bot';
 
         try {
             // Download the sticker
@@ -63,6 +63,8 @@ async function takeCommand(sock, chatId, message, args) {
             // Send the sticker
             await sock.sendMessage(chatId, {
                 sticker: finalBuffer
+            }, {
+                quoted: message
             });
 
         } catch (error) {
