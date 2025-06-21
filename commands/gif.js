@@ -1,35 +1,33 @@
-const axios = require('axios');
-const settings = require('../settings'); // Assuming the API key is stored here
+const moment = require('moment-timezone');
+const fetch = require('node-fetch');
+const fs = require('fs');
+const path = require('path');
 
-async function gifCommand(sock, chatId, query) {
-    const apiKey = settings.giphyApiKey; // Replace with your Giphy API Key
 
-    if (!query) {
-        await sock.sendMessage(chatId, { text: 'Please provide a search term for the GIF.' });
-        return;
-    }
+async function githubCommand(sock, chatId, message) {
+  try {
+    const res = await fetch('https://api.github.com/repos/luckytechhub/LuckyTechHub-Bot');
+    if (!res.ok) throw new Error('Error fetching repository data');
+    const json = await res.json();
 
-    try {
-        const response = await axios.get(`https://api.giphy.com/v1/gifs/search`, {
-            params: {
-                api_key: apiKey,
-                q: query,
-                limit: 1,
-                rating: 'g'
-            }
-        });
+    let txt = `*乂  Lucky Tech Hub Bot  乂*\n\n`;
+    txt += `✩  *Name* : ${json.name}\n`;
+    txt += `✩  *Watchers* : ${json.watchers_count}\n`;
+    txt += `✩  *Size* : ${(json.size / 1024).toFixed(2)} MB\n`;
+    txt += `✩  *Last Updated* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n`;
+    txt += `✩  *URL* : ${json.html_url}\n`;
+    txt += `✩  *Forks* : ${json.forks_count}\n`;
+    txt += `✩  *Stars* : ${json.stargazers_count}\n\n`;
+    txt += `💥 *Lucky Tech Hub Bot*`;
 
-        const gifUrl = response.data.data[0]?.images?.downsized_medium?.url;
+    // Use the local asset image
+    const imgPath = path.join(__dirname, '../assets/bot_image.jpg');
+    const imgBuffer = fs.readFileSync(imgPath);
 
-        if (gifUrl) {
-            await sock.sendMessage(chatId, { video: { url: gifUrl }, caption: `Here is your GIF for "${query}"` });
-        } else {
-            await sock.sendMessage(chatId, { text: 'No GIFs found for your search term.' });
-        }
-    } catch (error) {
-        console.error('Error fetching GIF:', error);
-        await sock.sendMessage(chatId, { text: 'Failed to fetch GIF. Please try again later.' });
-    }
+    await sock.sendMessage(chatId, { image: imgBuffer, caption: txt }, { quoted: message });
+  } catch (error) {
+    await sock.sendMessage(chatId, { text: '❌ Error fetching repository information.' }, { quoted: message });
+  }
 }
 
-module.exports = gifCommand;
+module.exports = githubCommand; 
